@@ -2,12 +2,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http:/java.sun.com/dtd/web-app_2_3.dtd">
   <servlet>
-    <servlet-name>hello</servlet-name>
-    <servlet-class>Servlets.Hello</servlet-class>
+    <servlet-name>zen</servlet-name>
+    <servlet-class>zen.mvc.DispachServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>hello</servlet-name>
-    <url-pattern>*.do</url-pattern>
+    <servlet-name>zen</servlet-name>
+    <url-pattern>*.zen</url-pattern>
   </servlet-mapping>
 </web-app>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+ <zen>
   <zenBean>
-     <actionClass>d</actionClass>
-      <viewClass>d</viewClass>
-      <path>d</path>
-      <forward>d</forward>
+     <actionClass>com.presentation.LoginAction</actionClass>
+      <viewClass>viewobjects.ForumLogin</viewClass>
+      <path>/login.zen</path>
+      <forward>hello.jsp</forward>
   </zenBean>
-
+</zen>
 

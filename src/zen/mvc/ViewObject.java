@@ -1,5 +1,5 @@
 package zen.mvc;
 
-public interface ViewObject {
+public class ViewObject {
    
 }
